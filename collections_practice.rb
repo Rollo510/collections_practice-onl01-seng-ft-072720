@@ -7,5 +7,4 @@ def sort_array_desc(array)
   array.sort do |a, b|
     new_array.push()
   end
-  new_array.reverse
 end  
