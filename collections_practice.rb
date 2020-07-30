@@ -24,7 +24,7 @@ end
 def kesha_maker(array)
   new_array = []
   array.each do |letter|
-    new_array.push(letter[2] = "$")
+    new_array.push(letter.length[2] = "$")
   end  
   return new_array
 end
