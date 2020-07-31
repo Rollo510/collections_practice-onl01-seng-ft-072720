@@ -53,6 +53,7 @@ def add_s(array)
   end
   array.each do |element|
     "#{element}" + "s"
+  end
 end
 
 
