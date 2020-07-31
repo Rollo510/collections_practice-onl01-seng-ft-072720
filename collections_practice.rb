@@ -55,6 +55,7 @@ def add_s(array)
     else
       new_array.push("#{element}" + "s")
   end
+  return new_array
 end
 
 
