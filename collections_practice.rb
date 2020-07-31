@@ -49,9 +49,6 @@ end
 
 def add_s(array)
   new_array = []
-  array.reject.with_index do |element, index|
-    index == 1
-  end
   array.each do |element|
     new_array.push("#{element}" + "s")
   end
