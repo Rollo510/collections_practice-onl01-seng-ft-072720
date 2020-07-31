@@ -50,8 +50,8 @@ end
 def add_s(array)
   new_array = []
   array.each_with_index.collect do |element, index|
-    if element[1]
-      new_array.push
+    if element = index[1]
+      new_array.push(element)
     else
       new_array.push("#{element}" + "s")
     end
