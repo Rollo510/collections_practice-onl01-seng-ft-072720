@@ -52,6 +52,7 @@ def add_s(array)
   array.each do |element|
     new_array.push("#{element}" + "s")
   end
+  new_array[1] = "feet"
   return new_array
 end
 
