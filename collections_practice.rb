@@ -50,8 +50,9 @@ end
 def add_s(array)
   array.reject.with_index do |element, index|
     index == 1
-    return "#{element}" + "s"
-    end
+  end
+  array.each do |element|
+    "#{element}" + "s"
 end
 
 
